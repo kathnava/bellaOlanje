@@ -1,0 +1,911 @@
+@media screen and (max-width: 600px) {
+
+    
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+      
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+      
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+      
+    .dropdown-content a:hover {background-color: #ddd;}
+      
+    .dropdown:hover .dropdown-content {display: block;}
+      
+    .dropdown:hover .dropbtn {background-color: #3e8e41;} 
+
+    #MH {
+        display: flex;
+        font-size: 30px; 
+        float: left;
+        padding-left: 10px;
+    }
+
+    .part1 {
+        display: flex;
+        width: 100%;
+        height: 400px;
+        background-image: url("part1.png");
+        text-align:center;
+        justify-content: center;
+        flex-direction: column;
+        color: white;
+        font-size: 30px;
+    }
+
+    .entete {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .logo {
+        width: 120px;
+        display: flex;
+    }
+    
+    .produits {
+        width : 100%;
+        flex-direction: column;
+        display: flex;
+        text-align: center;
+    }
+
+    .VI {
+        width: 100%;
+        display: flex;
+        flex-direction: column ;
+        align-items: center;
+        justify-content: space-around;
+        margin-left: 20px;
+    }
+
+    .input {
+        width: 80%;
+        margin-bottom: 10px;
+    }
+
+    .input3 {
+        width: 35%;
+        display: flex;
+       justify-content: center;
+    }
+
+
+    .hr { 
+        width: auto;
+        display: block;
+        margin-top: 3.5em;
+        margin-bottom: 1.5em;
+        margin-left: auto;
+        margin-right: auto;
+        border-style: inset;
+        border-width: 1px;
+    } 
+
+    .boissons {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .listebois {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .boissonGroup {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+        width: 85px;
+    }
+
+    .coca {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 25px;
+    }
+
+    .dessert {
+        display: flex;
+        margin-bottom: 10px;
+    }
+
+    .DessertGroup {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+        width: 150px;
+        margin-left: 25px;
+    }
+
+    .desserts {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .listedes {
+        flex-direction: column;
+        display: flex;
+        width: 100%;
+    }
+
+    .frites {
+        margin: 30px;
+    }
+
+    .just {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .envoyer {
+        width:200px;
+        background-color:#FA4A0C;
+        display: flex;
+        font-size: 20px;
+        margin: auto;
+        text-align: center;
+        justify-content: center;
+        box-shadow: 0px 10px 30px rgba(183, 50, 39, 0.2);
+        border-radius: 30px;
+        font-family: 'Montserrat';
+        font-style: normal;
+    }
+
+    .Al {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    #Pays {
+        margin-bottom: 50px;
+    }
+
+    .Upload {
+        width: 100px;
+        background-color: #FA4A0C;
+        display: flex;
+        font-size: 15px;
+        margin: auto;
+        text-align: center;
+        justify-content: center;
+        box-shadow: 0px 10px 30px rgba(183, 50, 39, 0.2);
+        border-radius: 30px;
+        font-family: 'Montserrat';
+        font-style: normal;
+    }
+     
+    .telecharger {
+        display: flex;
+        flex-direction: row;
+        margin: 30px;
+    }
+
+    .textarea {
+        margin-bottom: 50px;
+        width: auto;
+        text-align: center;
+    }
+
+    .carte {
+        margin-bottom: 50px;
+    }
+
+    .ingred {
+        display: flex;
+        width: auto;
+        flex-wrap: wrap;
+        justify-content:space-between;
+    }
+
+    .input1 {
+        width: 80%;
+        box-sizing: border-box;
+    }
+
+    .P4 {
+        color:#FA4A0C 
+    }
+
+    .copy {
+        font-size: 5px;
+        font-family: 'roboto';
+    }
+
+    .formli {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    .part4 {
+        width: auto;
+    }
+
+    .liv {
+        justify-content: space-between;
+        margin: 15px;
+    }
+
+    .ingre {
+        margin-bottom: 10px;
+    }
+
+    .Qunt {
+        margin-bottom: 10px ;
+    }
+
+    .input2 {
+        width: 85%;
+    }
+
+    .coca {
+        margin-bottom: 10px;
+    }
+
+    .form1 {
+        margin-left: 10px;
+    }
+
+    .envoi {
+        margin-bottom: 50px;
+    }
+
+    .AL {
+        margin-left: 20px;
+    }
+    
+    .Vosinfo {
+        margin-left: 30px;
+    }
+
+    .Commande {
+        margin-left: 30px;
+    }
+    
+    .P4 {
+        margin-left: 30px;
+    }
+
+    .suppli {
+        margin-left: 30px;
+    }
+
+    .champ {
+        margin-left: 20px;
+    }
+
+    .FRIT, .SANSFRIT {
+        margin-right: 2px;
+    }
+
+    #BO, #DES {
+        margin-left: 30px;
+    }
+
+    .adressedeliv {
+        margin: 15px;
+        margin-top: 40px;
+        margin-left: 30px;
+    }
+
+    .form1 {
+        width: 98%;
+    }
+
+}
+
+@media screen and (max-width: 900px) and (min-width: 600px) {
+    
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+      
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+      
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+      
+    .dropdown-content a:hover {background-color: #ddd;}
+      
+    .dropdown:hover .dropdown-content {display: block;}
+      
+    .dropdown:hover .dropbtn {background-color: #3e8e41;} 
+
+    #MH {
+        display: flex;
+        font-size: 40px; 
+        float: left;
+        padding-left: 10px;
+    }
+
+    .part1 {
+        display: flex;
+        width: 100%;
+        height: 400px;
+        background-image: url("part1.png");
+        text-align:center;
+        justify-content: center;
+        flex-direction: column;
+        color: white;
+        font-size: 30px;
+    }
+
+    .entete {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .logo {
+        width: 120px;
+        display: flex;
+    }
+
+    .VI {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;  
+    }
+    
+    .form {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .nameGroup {
+        width: 90%;
+        justify-content: space-between;
+        margin: 10px;
+        margin-left: 23px;
+    }
+
+    .input {
+        width: 80%;
+        margin-right : 60px;
+        box-sizing: border-box;
+        border-radius: 4px;
+    }
+
+    .suppli {
+        margin-left: 25px;
+        font-size: 24px;
+        font-family: 'montserrat';
+    }
+
+    .Vcommande {
+        width : 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .form1 {
+        width: 98%;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .ingre {
+        width: 65%;
+        justify-content: space-between;
+    }
+
+    .input1 {
+        box-sizing: border-box;
+        border-radius: 4px;
+    }
+
+    .P4 {
+        text-align: right;
+        color: #FA4A0C;
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .VC {
+        display: flex;
+        justify-content: space-between;
+        margin-right: 40px;
+        align-items: center;
+    }
+
+    .frites {
+        width: 100%;
+        margin-left: 20px;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+
+    .BoissonDesert {
+        display: flex;
+        width: 90%;
+        flex-direction: row;
+    }
+    
+    .input2 {
+        margin-right: 40px;
+        width: 80%;
+        box-sizing: border-box;
+        border-radius: 4px;
+    }
+   
+    .formli {
+        width: 87%;
+        margin : 13px;
+        display: flex;
+    }
+    
+    .AL {
+        width: 100%;
+    }
+
+    .liv {
+        width: 90%;
+        margin: 10px;
+    }
+
+    .envoyer {
+        width:200px;
+        background-color:#FA4A0C;
+        display: flex;
+        font-size: 20px;
+        margin: auto;
+        margin-top: 30px;
+        text-align: center;
+        justify-content: center;
+        box-shadow: 0px 10px 30px rgba(183, 50, 39, 0.2);
+        border-radius: 30px;
+        font-family: Montserrat;
+        font-style: normal;
+    }
+    
+    .boissons {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .listebois {
+        display: flex;
+        width: 80%;
+        flex-direction: column;
+        margin-left: 20px;
+    }
+
+    .boissonGroup {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+        width: 150px;
+    }
+
+    .coca {
+        display: flex;
+        justify-content: space-between; 
+    }
+
+    .input {
+        width: 95%;
+        margin-bottom: 10px;
+        box-sizing: border-box;
+        border-radius: 4px;
+    }
+
+    .DessertGroup {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+        width: 150px;
+    }
+
+    .desserts {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .dessert {
+        display: flex;
+    }
+
+    .Commande {
+        font-size: 36px;
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 20px;
+    }
+    
+    .Vosinfo {
+       font-size: 36px;
+       margin-left: 15px;
+    }
+
+    .nameGroupdesk {
+       display: flex;
+    }
+
+   .copy {
+       font-size: 10px;
+       font-family:'Roboto';
+    }
+
+    .champ {
+       display: flex;
+       flex-direction: column;
+       margin: 10px;
+       width: 98%;
+       justify-content: space-between;
+    }
+
+    .dessert {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 5px;
+    }
+
+    .ingreQunt {
+        display: flex;
+        width: 98%;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-left: 13px;
+    }
+
+    .Qunt {
+        margin-right: 100px;
+    }
+
+    .ingre {
+        width: 75%;
+        margin-bottom: 10px;
+    }
+
+    .envoi {
+        margin-bottom: 50px;
+        display: flex;
+        justify-content: center;
+        margin-right: 70px;
+    }
+   
+    .titre {
+        width: 80%;
+    }
+
+    .titre1 {
+        width: 70%;
+    }
+
+    .hr { 
+        width: auto;
+        display: block;
+        margin-top: 3.5em;
+        margin-bottom: 1.5em;
+        margin-left: auto;
+        margin-right: auto;
+        border-style: inset;
+        border-width: 1px;
+    } 
+
+    .adressedeliv {
+        margin-left: 20px;
+        font-family: 'poppins';
+        font-family: 36px;
+    }
+
+    #BO {
+        margin-left: 25px;
+        font-family: 'montserrat';
+        font-size: 24px;
+    }
+
+    #DES {
+        margin-left: 25px;
+        font-family: 'montserrat';
+        font-size: 24px;
+    }
+
+    .Titres {
+        display: flex;
+        justify-content: space-between;
+        width: 85%;
+    }
+
+    .Part4 {
+        width: 85%;
+    }
+
+}
+
+@media screen and (min-width: 900px) {
+
+    main {
+        width: 100%;
+    }
+    
+    .entete {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+    }
+
+    .contact {
+        width: 100%;
+    }
+
+    #MH {
+        display: none;
+        font-size: 40px; 
+        float: left;
+        padding-left: 10px;
+    }
+
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: flex;
+    }
+
+    .dropdown-content {
+        display: flex;
+        background-color: white;
+        min-width: 160px;
+        z-index: 1;
+    }
+
+    .logo {
+        display: flex;
+        width: 150px;
+        margin-bottom: 20px;
+    }
+
+    .part1 {
+        display: flex;
+        width: 100%;
+        height: 400px;
+        background-image: url("part1.png");
+        text-align:center;
+        justify-content: center;
+        flex-direction: column;
+        color: white;
+        font-size: 30px;
+    }
+   
+    .nameGroupdesk {
+        display: flex;
+        width : 90%;
+    }
+
+    .nameGroup {
+        width: 100%;
+        justify-content: space-between;
+        margin: 10px;
+    }
+
+    .input {
+        width: auto;
+        box-sizing: border-box;
+    }
+
+    .P4 {
+        text-align: right;
+        color: #FA4A0C;
+        font-size: 24px;
+        margin-top: 28px;
+        margin-left: 115px;
+    }
+
+    .Commande {
+        font-size: 44px;
+        margin-top: 10px;
+        margin-left: 20px;
+        padding: 6px;
+    }
+
+    .Vosinfo {
+        font-size: 44px;
+        margin-left: 10px;
+        font-family: 'poppins';
+    }
+
+    .VC {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .suppli {
+        font-size: 24px;
+        padding: 6px;
+        margin-left: 20px;
+    }
+
+    .input1 {
+        box-sizing: border-box;
+        border-radius: 4px;
+        width: 50%;
+    }
+  
+    .ingreQunt {
+        display: flex;
+        width: 73%;
+        flex-direction: column;
+        margin: 10px;
+    }
+
+    .champ {
+        display: flex;
+        flex-direction: row;
+        margin: 10px;
+        justify-content: space-between;
+    }
+
+    .form2 {
+        width: 100%;
+        display: flex;
+    }
+
+    .Qunt {
+        margin-right: 100px;
+    }
+    
+    .BoissonDesert {
+        width: 89%;
+        margin: 15px;
+    }
+
+    .Titres {
+        display: flex;
+        justify-content: space-between;
+        width: 85%;
+    }
+
+    .boissonGroup {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+        width: 150px;
+    }
+
+    .coca {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 5px;
+        
+    }
+
+    .DessertGroup {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+        width: 150px;
+    }
+    
+    .dessert {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 5px;
+    }
+
+    .input1 {
+        width: 90%;
+        box-sizing: border-box;
+        border-radius: 4px;
+    }
+
+    .adressedeliv {
+        font-size: 36px;
+        font-family: poppins;
+    }
+
+    .formli {
+        display: flex;
+        width: 85%;
+        justify-content: space-between;
+    }
+
+    .par4 {
+        flex-direction: column;
+    }
+
+    .liv {
+        margin: 10px;
+        justify-content: space-between;
+    }
+
+    .envoyer {
+        width: 200px;
+        background-color:#FA4A0C;
+        display: flex;
+        font-size: 20px;
+        margin-top: 50px;
+        text-align: center;
+        justify-content: center;
+        box-shadow: 0px 10px 30px rgba(183, 50, 39, 0.2);
+        border-radius: 30px;
+        font-family: Montserrat;
+        font-style: normal;
+    }
+
+    .envoi {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 50px;
+       align-items: center;
+       margin-right: 120px;
+    }
+    
+    .hr { 
+        display: block;
+        margin-top: 3.5em;
+        margin-bottom: 1.5em;
+        margin-left: auto;
+        margin-right: auto;
+        border-style: inset;
+        border-width: 1px;
+    } 
+
+    .frites {
+        margin-left: 20px;
+    } 
+
+    .FRIT, .SANSFRIT {
+        margin-left: 15px;
+    }
+
+    .form1 {
+        margin-bottom: 20px;
+    }
+
+    .Vosinfo {
+        margin-left: 20px;
+    }
+
+    .form {
+        margin-left: 20px;
+    }
+    
+    .adressedeliv {
+        margin: 15px;
+        margin-top: 40px;
+    }
+
+    .AL {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
